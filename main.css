@@ -179,3 +179,54 @@ form {
 	margin: 0px 2px 0px 1px;
 	padding: 0px 3.5px 1px 3px;
 }
+
+/*Section 18 - Chunky List*/
+/*						  */
+.chunky_list {
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	display: inline-block;
+	width: 500px;
+}
+
+.chunky_header {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 100%;
+	background-color: #d9d9d9;
+}
+
+.chunky_header h3 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+	font-size: .8em
+}
+
+.chunky_list ul {
+	padding-left: initial;
+}
+
+.chunky_list li {
+	border-bottom: 1px solid lightgrey;
+}
+
+.chunky_list li:last-child {
+	border: none;
+}
+
+.favorites {
+	float: right;
+}
+
+.repo_title {
+	text-decoration: none;
+	font-weight: 1.2em;
+}
+
+.repo_desc {
+	text-decoration: none;
+	color: black;
+}
