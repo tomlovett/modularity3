@@ -206,7 +206,6 @@ form {
 }
 
 .chunky_list ul {
-	padding-left: initial;
 }
 
 .chunky_list li {
@@ -217,16 +216,21 @@ form {
 	border: none;
 }
 
+.chunky_list a {
+	text-decoration: none;
+	font-color: black;
+	font-size: .8em;
+}
+
 .favorites {
 	float: right;
 }
 
 .repo_title {
-	text-decoration: none;
-	font-weight: 1.2em;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 .repo_desc {
-	text-decoration: none;
 	color: black;
 }
