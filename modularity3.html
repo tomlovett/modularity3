@@ -82,7 +82,7 @@
             <form>
               <div class="entry_field">
                 <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal" class="input_field">
+                <input type="text" name="firstName" value="Pascal" id="valid" class="input_field">
                 <span class="is_valid">✓</span>
               </div>
               <div class="entry_field">
@@ -91,7 +91,7 @@
               </div>
               <div class="entry_field">
                 <label>Email</label>
-                <input type="email" name="email" value="myemail@something" class="input_field">
+                <input type="email" name="email" value="myemail@something" id="invalid" class="input_field">
                 <span class="is_invalid">Please enter a valid value.</span>
               </div>
             </form>
@@ -105,12 +105,12 @@
           <p class="instruction-text">The textbox should be fluid, i.e. stretch to fit the available space when the window changes size. <em>Hint: Look up 3-column layouts with fluid center.</em></p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
-              <label>Find groups</label>
-              <div>
-                <input placeholder="Find Groups by Title or Description">
+            <div class="search_bar">
+              <label class="search_label">Find groups</label>
+              <div class="search_input">
+                <input  placeholder="Find Groups by Title or Description">
               </div>
-              <input type="submit">
+              <input search="search_submit" type="submit">
             </div>
             <!-- End editable area -->
           </div>

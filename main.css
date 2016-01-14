@@ -53,14 +53,61 @@ form {
 }
 
 /*Section 15 - Form Validation*/
-/*							  */
+/* :valid  :invalid 		  */
 .is_valid {
-	color: ;
+	color: #33ff33;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	margin-left: 15px;
 }
 
-.is_invalid {
+#valid {
+	border: 2px solid #b3ffb3;
+}
 
+
+.is_invalid {
+	color: #ff0000;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 15px;
+	width: 188px; /* <-- Hack-y, look for a better solution	*/
+}
+
+#invalid {
+	border: 2px solid #ffd4d4;	
+}
+
+/*Section 16 - Search Bar*/
+/*						 */
+.search_bar {
+	width: 90%;
+	background-color: #e6e6e6;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+}
+
+.search_label {
+	display: inline-block;
+
+}
+
+.search_input {
+	display: inline-block;
+}
+
+.search_input input {
+	color: #cccccc;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+}
+
+.search_submit {
+	display: inline-block;
+	color: white;
+	background-color: 
 }
