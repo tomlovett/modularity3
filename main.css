@@ -32,10 +32,19 @@ form {
 }
 
 #newsletter {
+	width: 343px;
 	border: none;
 }
 
 #newsletter input {
 	margin: 0px 10px;
-	border
+}
+
+#submit {
+	width: 312px;
+	border: none;
+	border-radius: 5px;
+	background-color: lightgrey;
+	padding: 10px;
+	margin: 12px 20px 0px 0px;
 }
