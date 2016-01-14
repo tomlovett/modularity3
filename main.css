@@ -10,13 +10,17 @@ form {
 	display: inline-block;
 	position: relative;
 	width: 500px;
-	height: 50px;
-	text-align: right;	
+	height: 30px;
+	text-align: right;
+	margin: 12.5px;
+}
+
+.entry_field label {
+	margin: 0px 20px;
 }
 
 .input_field {
 	width: 300px;
-	margin: 20px;
 	border: 1px solid #cccccc;
 	border-radius: 5px;
 	border-style: solid;
@@ -32,7 +36,7 @@ form {
 }
 
 #newsletter {
-	width: 343px;
+	margin: auto;
 	border: none;
 }
 
@@ -46,5 +50,17 @@ form {
 	border-radius: 5px;
 	background-color: lightgrey;
 	padding: 10px;
-	margin: 12px 20px 0px 0px;
+}
+
+/*Section 15 - Form Validation*/
+/*							  */
+.is_valid {
+	color: ;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.is_invalid {
+
 }
