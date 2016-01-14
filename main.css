@@ -140,6 +140,11 @@ form {
 }
 @media screen and (max-width: 480px) {
 	.search_input {
+		width: 43%;
+	}
+}
+@media screen and (max-width: 440px) {
+	.search_input {
 		max-width: 110px;
 	}
 }
@@ -148,5 +153,29 @@ form {
 .omnibox {
 	display: inline-block;
 	border: 1px solid lightgrey;
-	border-radius: 3px;
+	border-radius: 5px;
+}
+
+.omnibox ul {
+	display: inline-block;
+	list-style-type: none;
+    -webkit-padding-start: 0px;
+}
+.omnibox li {
+	display: inline-block;
+	font-size: .8em;
+	color: white;
+	background-color: #8585e0;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 3px;
+}
+
+.omnibox a {
+	color: lightgrey;
+	background-color: #4848d1;
+	border-radius: 5px;
+	text-decoration: none;
+	margin: 0px 2px 0px 1px;
+	padding: 0px 3.5px 1px 3px;
 }
