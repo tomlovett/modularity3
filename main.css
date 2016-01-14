@@ -14,16 +14,28 @@ form {
 	text-align: right;	
 }
 
-.text_prompt {
-	text-align: right;
-	top: 50%;
-	transform: translateY(-50%_;);
-}
-
 .input_field {
 	width: 300px;
-	margin: 10px;
+	margin: 20px;
+	border: 1px solid #cccccc;
 	border-radius: 5px;
-	border-style: ridge;
+	border-style: solid;
 	padding: 5px;
+}
+
+#city {
+	width: 177px;
+}
+
+#state {
+	width: 25px;
+}
+
+#newsletter {
+	border: none;
+}
+
+#newsletter input {
+	margin: 0px 10px;
+	border
 }
