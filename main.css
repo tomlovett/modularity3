@@ -83,7 +83,6 @@ form {
 /*Section 16 - Search Bar*/
 /*						 */
 .search_bar {
-	width: 90%;
 	background-color: #e6e6e6;
 	padding: 10px;
 	border-radius: 10px;
@@ -92,22 +91,62 @@ form {
 
 .search_label {
 	display: inline-block;
-
+	margin: 0px 5px;
+	min-width: 85px;
+	width: 12%;
 }
 
 .search_input {
 	display: inline-block;
+	width: 70%;
 }
 
 .search_input input {
 	color: #cccccc;
 	padding: 5px;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 1px solid #cccccc;
+	width: 100%;
 }
 
 .search_submit {
+	min-width: 65px;
+	width: 12%;
+	font-size: .9em;
 	display: inline-block;
 	color: white;
-	background-color: 
+	background-color: #ff8080;
+	border: none;
+	border-radius: 7.5px;
+	padding: 5px 10px;
+	margin: 0px 10px;
+}
+
+@media screen and (max-width: 825px) {
+	.search_input {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.search_input {
+		width: 57%;
+	}
+}
+@media screen and (max-width: 540px) {
+	.search_input {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.search_input {
+		max-width: 110px;
+	}
+}
+/*Section 17 - Omnibox*/
+/*					  */
+.omnibox {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
 }
