@@ -1,0 +1,29 @@
+/* ADD YOUR STYLES HERE */
+
+/*Section 14 - Sign-up Form*/
+/*						   */
+form {
+	display: inline-block;
+}
+
+.entry_field {
+	display: inline-block;
+	position: relative;
+	width: 500px;
+	height: 50px;
+	text-align: right;	
+}
+
+.text_prompt {
+	text-align: right;
+	top: 50%;
+	transform: translateY(-50%_;);
+}
+
+.input_field {
+	width: 300px;
+	margin: 10px;
+	border-radius: 5px;
+	border-style: ridge;
+	padding: 5px;
+}
